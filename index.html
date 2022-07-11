@@ -1,174 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+      />
 
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+      <link rel="stylesheet" href="style.css" />
+      <script src="script.js" defer></script>
 
-    <title>Frontend Mentor | Sunnyside agency landing page</title>
-  </head>
-  <body>
-    <header class="hero">
-      <nav class="top-nav">
-        <img src="./images/logo.svg" alt="Logo" class="logo" />
-        <img src="./images/icon-hamburger.svg" alt="menu" class="menu" />
-        <ul class="nav-list">
-          <li class="nav-link">About</li>
-          <li class="nav-link">Services</li>
-          <li class="nav-link">Projects</li>
-          <li class="nav-link nav-link-inverted">Contact</li>
-        </ul>
-      </nav>
-      <div class="hero-container">
-        <h1 class="title">We are creatives</h1>
-        <img src="./images/icon-arrow-down.svg" alt="arrow" />
-      </div>
-    </header>
+      <title>Frontend Mentor | Sunnyside agency landing page</title>
+   </head>
+   <body>
+      <header class="hero">
+         <nav class="top-nav">
+            <img src="./images/logo.svg" alt="Logo" class="logo" />
+            <img src="./images/icon-hamburger.svg" alt="menu" class="menu" />
+            <ul class="nav-list">
+               <li class="nav-link">About</li>
+               <li class="nav-link">Services</li>
+               <li class="nav-link">Projects</li>
+               <li class="nav-link nav-link-inverted">Contact</li>
+            </ul>
+         </nav>
+         <div class="hero-title-container">
+            <h1 class="title">We are creatives</h1>
+            <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow" />
+         </div>
+      </header>
 
-    <main class="main">
-      <div class="details-image">
-        <img src="./images/mobile/image-transform.jpg" alt="Transform image" />
-      </div>
-      <div class="details-card">
-        <h2 class="heading">Transform your brand</h2>
-        <p class="subtext">
-          We are a full-service creative agency specializing in helping brands
-          grow fast. Engage your clients through compelling visuals that do most
-          of the marketing for you.
-        </p>
-        <p class="learn-more yellow">Learn More</p>
-      </div>
+      <main class="main">
+         <div class="two-column-grid grid-reverse">
+            <img
+               class="details-image"
+               src="./images/mobile/image-transform.jpg"
+               alt="Transform image"
+            />
+            <div class="details-card one">
+               <h2 class="heading">Transform your brand</h2>
+               <p class="subtext">
+                  We are a full-service creative agency specializing in helping
+                  brands grow fast. Engage your clients through compelling
+                  visuals that do most of the marketing for you.
+               </p>
+               <p class="learn-more yellow">Learn More</p>
+            </div>
+         </div>
 
-      <div class="details-image">
-        <img src="./images/mobile/image-stand-out.jpg" alt="Transform image" />
-      </div>
-      <div class="details-card">
-        <h2 class="heading">Stand out to the right audience</h2>
-        <p class="subtext">
-          Using a collaborative formula of designers, researchers,
-          photographers, videographers, and copywriters, we'll build and extend
-          your brand in digital places.
-        </p>
-        <p class="learn-more pink">Learn More</p>
-      </div>
-      <div class="details-div graphic-design-div">
-        <h2 class="heading graphic-design-text">Graphic design</h2>
-        <p class="subtext">
-          Great design makes you memorable. We deliver artwork that underscores
-          your brand message and captures potential clients' attention.
-        </p>
-      </div>
-      <div class="details-div photography-div">
-        <h2 class="heading photography-text">Photography</h2>
-        <p class="subtext">
-          Increase your credibility by getting the most stunning, high-quality
-          photos that improve your business image.
-        </p>
-      </div>
-    </main>
+         <div class="two-column-grid">
+            <img
+               class="details-image"
+               src="./images/mobile/image-stand-out.jpg"
+               alt="Transform image"
+            />
+            <div class="details-card two">
+               <h2 class="heading">Stand out to the right audience</h2>
+               <p class="subtext">
+                  Using a collaborative formula of designers, researchers,
+                  photographers, videographers, and copywriters, we'll build and
+                  extend your brand in digital places.
+               </p>
+               <p class="learn-more pink">Learn More</p>
+            </div>
+         </div>
 
-    <section class="testimonials">
-      <p class="title">Client testimonials</p>
-      <div class="testimonial">
-        <div class="image">
-          <img src="./images/image-emily.jpg" alt="Emily" />
-        </div>
-        <p class="subtext">
-          We put our trust in Sunnyside and they delivered, making sure our
-          needs were met and deadlines were always hit.
-        </p>
-        <p class="name">Emily R.</p>
-        <p class="occupation">Marketing Director</p>
-      </div>
-      <div class="testimonial">
-        <div class="image">
-          <img src="./images/image-thomas.jpg" alt="Thomas" />
-        </div>
-        <p class="subtext">
-          Sunnyside's enthusiasm coupled with their keen interest in our brand's
-          success made it a satisfying and enjoyable experience.
-        </p>
-        <p class="name">Thomas S.</p>
-        <p class="occupation">Chief Operating Officer</p>
-      </div>
-      <div class="testimonial">
-        <div class="image">
-          <img src="./images/image-jennie.jpg" alt="Jennie" />
-        </div>
-        <p class="subtext">
-          Incredible end result! Our sales increased over 400% when we worked
-          with Sunnyside. Highly recommended!
-        </p>
-        <p class="name">Jennie F.</p>
-        <p class="occupation">Business Owner</p>
-      </div>
-    </section>
+         <div class="two-column-grid">
+            <div class="details-div graphic-design-div five">
+               <h2 class="heading graphic-design-text">Graphic design</h2>
+               <p class="subtext">
+                  Great design makes you memorable. We deliver artwork that
+                  underscores your brand message and captures potential clients'
+                  attention.
+               </p>
+            </div>
+            <div class="details-div photography-div six">
+               <h2 class="heading photography-text">Photography</h2>
+               <p class="subtext">
+                  Increase your credibility by getting the most stunning,
+                  high-quality photos that improve your business image.
+               </p>
+            </div>
+         </div>
+      </main>
 
-    <section class="gallery">
-      <div class="grid-image image">
-        <img
-          src="./images/mobile/image-gallery-milkbottles.jpg"
-          alt="Milk Bottles"
-        />
-      </div>
-      <div class="grid-image image">
-        <img src="./images/mobile/image-gallery-orange.jpg" alt="Orange" />
-      </div>
-      <div class="grid-image image">
-        <img src="./images/mobile/image-gallery-cone.jpg" alt="Cone" />
-      </div>
-      <div class="grid-image image">
-        <img
-          src="./images/mobile/image-gallery-sugar-cubes.jpg"
-          alt="Sugar image-gallery-sugar-cubes"
-        />
-      </div>
-    </section>
+      <section class="testimonials">
+         <p class="title">Client testimonials</p>
+         <div class="testimonial-container">
+            <div class="testimonial">
+               <div class="image">
+                  <img src="./images/image-emily.jpg" alt="Emily" />
+               </div>
+               <p class="subtext">
+                  We put our trust in Sunnyside and they delivered, making sure
+                  our needs were met and deadlines were always hit.
+               </p>
+               <p class="name">Emily R.</p>
+               <p class="occupation">Marketing Director</p>
+            </div>
+            <div class="testimonial">
+               <div class="image">
+                  <img src="./images/image-thomas.jpg" alt="Thomas" />
+               </div>
+               <p class="subtext">
+                  Sunnyside's enthusiasm coupled with their keen interest in our
+                  brand's success made it a satisfying and enjoyable experience.
+               </p>
+               <p class="name">Thomas S.</p>
+               <p class="occupation">Chief Operating Officer</p>
+            </div>
+            <div class="testimonial">
+               <div class="image">
+                  <img src="./images/image-jennie.jpg" alt="Jennie" />
+               </div>
+               <p class="subtext">
+                  Incredible end result! Our sales increased over 400% when we
+                  worked with Sunnyside. Highly recommended!
+               </p>
+               <p class="name">Jennie F.</p>
+               <p class="occupation">Business Owner</p>
+            </div>
+         </div>
+      </section>
 
-    <footer class="footer">
-      <nav class="bottom-nav">
-        <img src="./images/logo.svg" alt="Logo" class="bottom-logo logo" />
-        <!-- <h1 class="bottom-nav-title">sunnyside</h1> -->
+      <section class="gallery">
+         <img
+            class="gallery-image image"
+            src="./images/mobile/image-gallery-milkbottles.jpg"
+            alt="Milk Bottles"
+         />
+         <img
+            class="gallery-image image"
+            src="./images/mobile/image-gallery-orange.jpg"
+            alt="Orange"
+         />
+         <img
+            class="gallery-image image"
+            src="./images/mobile/image-gallery-cone.jpg"
+            alt="Cone"
+         />
+         <img
+            class="gallery-image image"
+            src="./images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="Sugar image-gallery-sugar-cubes"
+         />
+      </section>
 
-        <ul class="nav-list">
-          <li class="nav-link">About</li>
-          <li class="nav-link">Services</li>
-          <li class="nav-link">Projects</li>
-          <!-- <li class="nav-link">Contact</li> -->
-        </ul>
-      </nav>
+      <footer class="footer">
+         <nav class="bottom-nav">
+            <img src="./images/logo.svg" alt="Logo" class="bottom-logo logo" />
+            <!-- <h1 class="bottom-nav-title">sunnyside</h1> -->
 
-      <ul class="socials">
-        <li class="icon">
-          <img src="./images/icon-facebook.svg" alt="Facebook" />
-        </li>
-        <li class="icon">
-          <img src="./images/icon-instagram.svg" alt="Instagram" />
-        </li>
-        <li class="icon">
-          <img src="./images/icon-twitter.svg" alt="Twitter" />
-        </li>
-        <li class="icon">
-          <img src="./images/icon-pinterest.svg" alt="Pinterest" />
-        </li>
-      </ul>
-    </footer>
+            <ul class="nav-list">
+               <li class="nav-link">About</li>
+               <li class="nav-link">Services</li>
+               <li class="nav-link">Projects</li>
+               <!-- <li class="nav-link">Contact</li> -->
+            </ul>
+         </nav>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Fachi</a>.
-    </div>
-  </body>
+         <ul class="socials">
+            <li class="icon">
+               <img src="./images/icon-facebook.svg" alt="Facebook" />
+            </li>
+            <li class="icon">
+               <img src="./images/icon-instagram.svg" alt="Instagram" />
+            </li>
+            <li class="icon">
+               <img src="./images/icon-twitter.svg" alt="Twitter" />
+            </li>
+            <li class="icon">
+               <img src="./images/icon-pinterest.svg" alt="Pinterest" />
+            </li>
+         </ul>
+
+         <div class="attribution">
+            Challenge by
+            <a
+               href="https://www.frontendmentor.io?ref=challenge"
+               target="_blank"
+               >Frontend Mentor</a
+            >. Coded by <a href="#">Fachi</a>.
+         </div>
+      </footer>
+   </body>
 </html>

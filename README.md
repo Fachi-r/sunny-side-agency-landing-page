@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Add solution URL here](https://your-solution-url.com)
--  Live Site URL: [Add live site URL here](https://fachi-r.github.io/sunny-side-agency-landing-page/)
+-  Solution URL: [Frontendmentor Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-R3DFJZStAe)
+-  Live Site URL: [Github Pages](https://fachi-r.github.io/sunny-side-agency-landing-page/)
 
 ## My process
 
@@ -120,4 +120,4 @@ I learnt about CSS shapes to create an arrow /(triangle) at the top-left corner 
 
 -  GitHub - [Fachi](https://github.com/Fachi-r/)
 -  Frontend Mentor - [@Fachi-r](https://www.frontendmentor.io/profile/Fachi-r)
--  Twitter - [@\_fachi_0](https://www.twitter.com/yourusername)
+-  Twitter - [@\_fachi_0](https://twitter.com/_fachi_0)
